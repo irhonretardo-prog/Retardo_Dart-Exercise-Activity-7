@@ -1,20 +1,16 @@
 void main() {
-  // 1. Declare variables with explicit types
   String customerName = 'Irhon Clark A. Retardo';
   int coffeeCount = 1;
   double pricePerCup = 2.75;
   bool appliesForDiscount = true;
 
-  // 2. Arithmetic operators (including extra credit: ~/ and %)
   double rawTotal = coffeeCount * pricePerCup;
-  int wholeDollarAmount = rawTotal ~/ 1; // Extra Credit: Integer division
-  int freeStampRemainder = coffeeCount % 3; // Extra Credit: Modulo operator
+  int wholeDollarAmount = rawTotal ~/ 1; 
+  int freeStampRemainder = coffeeCount % 3;
 
-  // 3. Comparison operators (produces bool)
   bool qualifiesForFreeCookie = rawTotal >= 15.0;
   bool getsMemberPerk = appliesForDiscount && qualifiesForFreeCookie;
 
-  // 4. Output with String interpolation
   print('Customer Name: $customerName');
   print('Total Price: \$${rawTotal.toStringAsFixed(2)}');
   print('Whole Dollars Spent: \$$wholeDollarAmount');
