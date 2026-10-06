@@ -1,0 +1,14 @@
+name: dart_exercises
+description: A sample Dart console application demonstrating basic variables, operators, and output.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
